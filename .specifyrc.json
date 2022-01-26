@@ -39,37 +39,6 @@
       ]
     },
     {
-      "name": "Assets / Vector",
-      "path": "packages/polis/assets/vector/",
-      "filter": {
-        "types": ["vector"]
-      },
-      "parsers": [
-        {
-          "name": "svgo",
-          "options": {
-            "svgo": {
-              "plugins": [
-                {
-                  "removeDimensions": true
-                },
-                {
-                  "removeAttrs": {
-                    "attrs": "*:(fill|stroke)"
-                  }
-                },
-                {
-                  "addAttributesToSVGElement": {
-                    "attributes": ["width=\"1em\"", "height=\"1em\""]
-                  }
-                }
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
       "name": "Assets / Font",
       "path": "packages/polis/assets/fonts/",
       "filter":{
