@@ -37,6 +37,24 @@
           "name": "to-css-custom-properties"
         }
       ]
+    },
+    {
+      "name": "Design Tokens / Text Style",
+      "path": "packages/polis/styles/fonts",
+      "filter":{
+        "types": ["font"]
+      },
+      "parsers": [
+        {
+          "name": "sort-by",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
     }
   ]
 }
