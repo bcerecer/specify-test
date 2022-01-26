@@ -1,0 +1,11 @@
+:root {
+  /* SHADOW */
+  --dark-mode-shadow-large: 0px 24px 64px rgba(0, 0, 0, 0.5),
+    2px 4px 16px rgba(0, 0, 0, 0.25);
+  --dark-mode-shadow-small: 0px 8px 32px rgba(0, 0, 0, 0.5),
+    2px 2px 8px rgba(0, 0, 0, 0.25);
+  --light-mode-shadow-large: 0px 24px 64px rgba(0, 0, 0, 0.2),
+    2px 4px 16px rgba(0, 0, 0, 0.15);
+  --light-mode-shadow-small: 0px 8px 32px rgba(0, 0, 0, 0.2),
+    2px 2px 8px rgba(0, 0, 0, 0.15);
+}
