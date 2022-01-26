@@ -39,8 +39,8 @@
       ]
     },
     {
-      "name": "Design Tokens / Text Style",
-      "path": "packages/polis/styles/fonts",
+      "name": "Assets / Font",
+      "path": "packages/polis/styles/fonts/",
       "filter":{
         "types": ["font"]
       },
