@@ -4,7 +4,7 @@
     "rules": [
       {
         "name": "Design Tokens / Color",
-        "path": "colors.css",
+        "path": "packages/polis/styles/colors.css",
         "filter":{
           "types": ["color"]
         },
@@ -22,7 +22,7 @@
       },
       {
         "name": "Design Tokens / Shadow",
-        "path": "shadows.css",
+        "path": "packages/polis/styles/shadows.css",
         "filter":{
           "types": ["shadow"]
         },
@@ -36,6 +36,15 @@
           {
             "name": "to-css-custom-properties"
           }
+        ]
+      },
+      {
+        "name": "Assets / Font",
+        "path": "packages/polis/assets/fonts/",
+        "filter":{
+          "types": ["font"]
+        },
+        "parsers": [
         ]
       }
     ]
