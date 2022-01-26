@@ -40,7 +40,7 @@
     },
     {
       "name": "Design Tokens / Text Style",
-      "path": "packages/polis/styles/fonts.css",
+      "path": "packages/polis/styles/fonts",
       "filter":{
         "types": ["font"]
       },
