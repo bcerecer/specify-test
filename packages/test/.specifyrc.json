@@ -37,6 +37,15 @@
           "name": "to-css-custom-properties"
         }
       ]
+    },
+    {
+      "name": "Assets / Font",
+      "path": "packages/polis/assets/fonts/",
+      "filter":{
+        "types": ["font"]
+      },
+      "parsers": [
+      ]
     }
   ]
 }

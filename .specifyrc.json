@@ -1,0 +1,42 @@
+{
+    "repository": "@staratlas/DAO",
+    "head": "specify",
+    "rules": [
+      {
+        "name": "Design Tokens / Color",
+        "path": "colors.css",
+        "filter":{
+          "types": ["color"]
+        },
+        "parsers": [
+          {
+            "name": "sort-by",
+            "options": {
+              "keys": ["name"]
+            }
+          },
+          {
+            "name": "to-css-custom-properties"
+          }
+        ]
+      },
+      {
+        "name": "Design Tokens / Shadow",
+        "path": "shadows.css",
+        "filter":{
+          "types": ["shadow"]
+        },
+        "parsers": [
+          {
+            "name": "sort-by",
+            "options": {
+              "keys": ["name"]
+            }
+          },
+          {
+            "name": "to-css-custom-properties"
+          }
+        ]
+      }
+    ]
+  }
