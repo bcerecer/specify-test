@@ -1,0 +1,60 @@
+{
+  "repository": "bcerecer/specifyTest",
+  "head": "specify",
+  "rules": [
+    {
+      "name": "Design Tokens / Color",
+      "path": "packages/polis/styles/colors.css",
+      "filter":{
+        "types": ["color"]
+      },
+      "parsers": [
+        {
+          "name": "sort-by",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "Design Tokens / Shadow",
+      "path": "packages/polis/styles/shadows.css",
+      "filter":{
+        "types": ["shadow"]
+      },
+      "parsers": [
+        {
+          "name": "sort-by",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    },
+    {
+      "name": "Design Tokens / Text Style",
+      "path": "packages/polis/styles/fonts.css",
+      "filter":{
+        "types": ["font"]
+      },
+      "parsers": [
+        {
+          "name": "sort-by",
+          "options": {
+            "keys": ["name"]
+          }
+        },
+        {
+          "name": "to-css-custom-properties"
+        }
+      ]
+    }
+  ]
+}
