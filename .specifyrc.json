@@ -1,5 +1,5 @@
 {
-    "repository": "@staratlas/DAO",
+    "repository": "@staratlas/dao",
     "head": "specify",
     "rules": [
       {
@@ -43,6 +43,15 @@
         "path": "packages/polis/assets/fonts/",
         "filter":{
           "types": ["font"]
+        },
+        "parsers": [
+        ]
+      },
+      {
+        "name": "Assets / Vector",
+        "path": "packages/dao/assets/vectors/",
+        "filter":{
+          "types": ["vector"]
         },
         "parsers": [
         ]
